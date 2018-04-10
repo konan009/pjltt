@@ -21,6 +21,20 @@ class UserController extends Controller
 ;
     }
 
+
+    public function faqpage(){
+        return view('faqs');
+    }
+
+    public function aboutpage(){
+        return view('about');
+    }
+
+
+    public function contact(){
+        return view('contact');
+    }
+
     public function pdf($id){
         $data['bookinfo'] = Book::find($id);
         $data['userinfo'] =  Book::find($data['bookinfo']->id)->tour;

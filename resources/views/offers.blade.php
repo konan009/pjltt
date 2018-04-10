@@ -31,7 +31,7 @@
 											<hr>
 											<center><h6>₱{{$tour->price}}&nbsp;per person&nbsp;/&nbsp;{{$tour->day}} Days, {{$tour->night}} Nights</h6></center>
 											<br>
-											<a href="{{asset('booknow/')}}/{{$tour->id}}"><button type="button">Book Now!</button></a>
+											<a href="{{url('booknow')}}/{{$tour->id}}"><button type="button">Book Now!</button></a>
 										</div>
 										</figcaption>
 									</figure>

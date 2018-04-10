@@ -24,7 +24,9 @@ Route::get('/logout', function () {
 
 
 Auth::routes();
-
+Route::get('/contact', 'UserController@contact');
+Route::get('/about', 'UserController@aboutpage');
+Route::get('/faq', 'UserController@faqpage');
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/booknow/{id}', 'UserController@booknowPage');
 Route::get('/bookrequests', 'UserController@bookRequests')->name('book')->middleware('auth');

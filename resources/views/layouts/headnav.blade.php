@@ -51,9 +51,9 @@
 						
 						<ul id="nav-top" class="nav navbar-nav navbar-right">
 							<li><a href="{{url('')}}" class="page-scroll">Home</a></li>
-							<li><a href="page.html" class="page-scroll">About</a></li>
-							<li><a href="faqs.html" class="page-scroll">FAQs</a></li>
-							<li><a href="contact.html" class="page-scroll">Contact</a></li>
+							<li><a href="{{url('about')}}" class="page-scroll">About</a></li>
+							<li><a href="{{url('faq')}}" class="page-scroll">FAQs</a></li>
+							<li><a href="{{url('contact')}}"  class="page-scroll">Contact</a></li>
 							<li><a href="{{url('offerpage')}}" class="page-scroll">Offers</a></li>
 
 							@if(!Auth::check())

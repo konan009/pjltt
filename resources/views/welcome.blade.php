@@ -88,7 +88,7 @@
                   <hr>
                   <center><h6>₱6,000&nbsp;per person&nbsp;/&nbsp;3 Days, 2 Nights</h6></center>
                   <br>
-                  <a href="Domestic/boracay.html"><button type="button">Book Now!</button></a>
+                  <a href="{{url('booknow')}}/1"><button type="button">Book Now!</button></a>
                   <!--ul class="work-more">
                     <li><a href="#"><i class="fa fa-search"></i></a></li>
                     <li><a href="#"><i class="fa fa-link"></i></a></li>
@@ -105,7 +105,7 @@
                   <hr>
                   <center><h6>₱16,500&nbsp;per person&nbsp;/&nbsp;3 Days, 2 Nights</h6></center>
                   <br>
-                  <a href="Domestic/samal.html"><button type="button">Book Now!</button></a>
+                  <a href="{{url('booknow')}}/2"><button type="button">Book Now!</button></a>
                   <!--ul class="work-more">
                     <li><a href="#"><i class="fa fa-search"></i></a></li>
                     <li><a href="#"><i class="fa fa-link"></i></a></li>
@@ -122,7 +122,7 @@
                   <hr>
                   <center><h6>₱4,500&nbsp;per person&nbsp;/&nbsp;3 Days, 2 Nights</h6></center>
                   <br>
-                  <a href="Domestic/underground.html"><button type="button">Book Now!</button></a>
+                  <a href="{{url('booknow')}}/3"><button type="button">Book Now!</button></a>
                   <!--ul class="work-more">
                     <li><a href="#"><i class="fa fa-search"></i></a></li>
                     <li><a href="#"><i class="fa fa-link"></i></a></li>
@@ -139,7 +139,7 @@
                   <hr>
                   <center><h6>₱10,000&nbsp;per person&nbsp;/&nbsp;3 Days, 2 Nights</h6></center>
                   <br>
-                  <a href="International/cambodia.html"><button type="button">Book Now!</button></a>
+                  <a href="{{url('booknow')}}/4"><button type="button">Book Now!</button></a>
                   <!--ul class="work-more">
                     <li><a href="#"><i class="fa fa-search"></i></a></li>
                     <li><a href="#"><i class="fa fa-link"></i></a></li>
@@ -156,7 +156,7 @@
                   <hr>
                   <center><h6>₱3,500&nbsp;per person&nbsp;/&nbsp;3 Days, 2 Nights</h6></center>
                   <br>
-                  <a href="International/bangkok.html"><button type="button">Book Now!</button></a>
+                  <a href="{{url('booknow')}}/5"><button type="button">Book Now!</button></a>
                   <!--ul class="work-more">
                     <li><a href="#"><i class="fa fa-search"></i></a></li>
                     <li><a href="#"><i class="fa fa-link"></i></a></li>
@@ -173,7 +173,7 @@
                   <hr>
                   <center><h6>₱10,000&nbsp;per person&nbsp;/&nbsp;3 Days, 2 Nights</h6></center>
                   <br>
-                  <a href="International/hongkong2.html"><button type="button">Book Now!</button></a>
+                  <a href="{{url('booknow')}}/6"><button type="button">Book Now!</button></a>
                   <!--ul class="work-more">
                     <li><a href="#"><i class="fa fa-search"></i></a></li>
                     <li><a href="#"><i class="fa fa-link"></i></a></li>
